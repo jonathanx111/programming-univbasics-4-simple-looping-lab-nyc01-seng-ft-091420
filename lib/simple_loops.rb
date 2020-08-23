@@ -26,7 +26,15 @@ def output_array(arr)
 end
 
 def return_string_array(arr)
+  count = 0 
+  new = []
+  while arr[count] do
+    new << arr[count].to_s 
+    count += 1 
+  end 
   
+  return new
+end
   
   
 
