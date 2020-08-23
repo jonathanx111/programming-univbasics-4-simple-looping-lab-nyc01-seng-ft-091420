@@ -33,7 +33,7 @@ def return_string_array(arr)
     count += 1 
   end 
   
-  return new
+  new
 end
   
   
